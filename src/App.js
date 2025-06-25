@@ -81,6 +81,7 @@ function App() {
           value={formData.country}
           onChange={changeHandler}
         >
+          <option value="" disabled selected hidden>Select an option..</option>
           <option value="india">India</option>
           <option value="srilanka">Sri Lanka</option>
           <option value="nepal">Nepal</option>
